@@ -1,0 +1,38 @@
+{
+  "name": "vue-gas-sample",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "push": "npm run build && clasp push"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-jsonp": "^1.0.4",
+    "core-js": "^3.6.5",
+    "html-inline-source-webpack-plugin": "^1.1.0",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.2.5",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "copy-webpack-plugin": "^6.4.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "html-inline-script-webpack-plugin": "^1.1.4",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^4.5.2",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-cli": "^4.8.0"
+  }
+}
