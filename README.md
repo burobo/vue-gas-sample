@@ -14,3 +14,4 @@ Using Vue.js for frontend and GAS(Google Apps Script) for backend.
 - [ ] Access to user session info in backend and show it on browser.
 - [ ] Routing with Vue Router or something.
 - [ ] Use some kind of design framework.
+- [ ] Use same domain model between frontend and backend.
